@@ -8,12 +8,11 @@ export const Footer: React.FC = () => {
         {/* Info Column */}
         <div className="footer-col brand-col">
           <div className="footer-logo">
-            <svg width="35" height="35" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M10 80C30 80 40 75 60 75C80 75 90 80 110 80" stroke="#0084ff" strokeWidth="4" strokeLinecap="round" />
-              <path d="M25 45L40 25H75L85 45H25Z" fill="#ffffff" />
-              <path d="M15 50L25 68H78L88 50H15Z" fill="#0084ff" />
-              <circle cx="50" cy="48" r="8" stroke="#ff6b35" strokeWidth="2" />
-            </svg>
+            <img 
+              src="/logo.png" 
+              alt="PT. Pelayaran Samudera Rizqi Logo" 
+              style={{ width: '35px', height: '35px', objectFit: 'contain' }} 
+            />
             <span className="footer-brand-title">SAMUDERA RIZQI</span>
           </div>
           <p className="footer-desc">

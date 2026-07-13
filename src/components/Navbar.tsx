@@ -38,33 +38,13 @@ export const Navbar: React.FC = () => {
   return (
     <nav className={`navbar-root ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container navbar-container">
-        {/* Elegant Custom SVG Logo */}
+        {/* Elegant Logo Image */}
         <Link href="/" className="navbar-logo">
-          <svg width="45" height="45" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="logo-svg">
-            {/* Ocean Waves */}
-            <path d="M10 80C30 80 40 75 60 75C80 75 90 80 110 80" stroke="#0084ff" strokeWidth="4" strokeLinecap="round" />
-            <path d="M-10 87C10 87 20 82 40 82C60 82 70 87 90 87C110 87 120 82 140 82" stroke="#0056b3" strokeWidth="3" opacity="0.6" strokeLinecap="round" />
-            
-            {/* Premium Stylized Vessel Hull */}
-            <path d="M25 45L40 25H75L85 45H25Z" fill="url(#logo-grad-1)" />
-            <path d="M15 50L25 68H78L88 50H15Z" fill="url(#logo-grad-2)" />
-            <path d="M78 68L86 50M25 68L15 50" stroke="#ffffff" strokeWidth="1.5" opacity="0.5" />
-            
-            {/* Anchor Symbol */}
-            <circle cx="50" cy="48" r="8" stroke="#ff6b35" strokeWidth="2" />
-            <path d="M50 56V64M45 60H55" stroke="#ff6b35" strokeWidth="2" strokeLinecap="round" />
-
-            <defs>
-              <linearGradient id="logo-grad-1" x1="25" y1="25" x2="85" y2="45" gradientUnits="userSpaceOnUse">
-                <stop offset="0%" stopColor="#ffffff" />
-                <stop offset="100%" stopColor="#cbd5e1" />
-              </linearGradient>
-              <linearGradient id="logo-grad-2" x1="15" y1="50" x2="88" y2="68" gradientUnits="userSpaceOnUse">
-                <stop offset="0%" stopColor="#0084ff" />
-                <stop offset="100%" stopColor="#003b80" />
-              </linearGradient>
-            </defs>
-          </svg>
+          <img 
+            src="/logo.png" 
+            alt="PT. Pelayaran Samudera Rizqi Logo" 
+            style={{ width: '45px', height: '45px', objectFit: 'contain' }} 
+          />
           <div className="logo-text">
             <span className="brand-name">SAMUDERA RIZQI</span>
             <span className="brand-sub">PT. PELAYARAN SAMUDERA RIZQI</span>

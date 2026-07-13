@@ -18,7 +18,7 @@ export default function FleetPage() {
       engine: 'Yanmar 2x 1600 HP Dual Screw',
       year: '2022',
       class: 'BKI (Biro Klasifikasi Indonesia)',
-      img: 'https://images.unsplash.com/photo-1516937941344-00b4e0337589?auto=format&fit=crop&w=600&q=80'
+      img: 'https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&w=600&q=80'
     },
     {
       id: 'sr-barge3001',
@@ -83,7 +83,7 @@ export default function FleetPage() {
       engine: 'N/A',
       year: '2017',
       class: 'BKI Registered',
-      img: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80'
+      img: 'https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=600&q=80'
     }
   ];
 

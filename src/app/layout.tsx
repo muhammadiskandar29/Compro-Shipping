@@ -19,6 +19,11 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "PT. Pelayaran Samudera Rizqi | Premium Shipping & Logistics",
   description: "PT. Pelayaran Samudera Rizqi - Solusi logistik dan pelayaran terpercaya di Indonesia. Menyediakan layanan cargo laut, charter kapal, dan manajemen logistik profesional.",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/logo.png",
+  }
 };
 
 export default function RootLayout({
