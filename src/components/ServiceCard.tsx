@@ -94,7 +94,7 @@ export const ServiceCard: React.FC<ServiceCardProps> = ({
           font-family: var(--font-display);
           font-size: 3.5rem;
           font-weight: 800;
-          color: rgba(0, 132, 255, 0.15);
+          color: rgba(220, 30, 36, 0.1);
           line-height: 1;
           position: absolute;
           top: -2.5rem;
@@ -104,7 +104,7 @@ export const ServiceCard: React.FC<ServiceCardProps> = ({
         .service-badge-cat {
           font-size: 0.8rem;
           font-weight: 700;
-          color: var(--color-accent);
+          color: var(--color-primary);
           letter-spacing: 0.05em;
           text-transform: uppercase;
         }
@@ -112,6 +112,7 @@ export const ServiceCard: React.FC<ServiceCardProps> = ({
         .service-title-text {
           font-size: 1.8rem;
           line-height: 1.3;
+          color: var(--color-text-dark);
         }
 
         .service-desc-text {
@@ -121,7 +122,7 @@ export const ServiceCard: React.FC<ServiceCardProps> = ({
 
         .service-specs-box {
           width: 100%;
-          background: rgba(255,255,255,0.02);
+          background: rgba(15, 23, 42, 0.02);
           border: 1px solid var(--color-border);
           border-radius: 8px;
           padding: 1.2rem 1.5rem;
@@ -130,7 +131,7 @@ export const ServiceCard: React.FC<ServiceCardProps> = ({
         .service-specs-box h4 {
           font-size: 0.95rem;
           margin-bottom: 0.6rem;
-          color: #ffffff;
+          color: var(--color-text-dark);
         }
 
         .service-specs-list {
@@ -175,7 +176,7 @@ export const ServiceCard: React.FC<ServiceCardProps> = ({
           left: 0;
           width: 100%;
           height: 100%;
-          background: linear-gradient(135deg, rgba(3, 8, 18, 0.2) 0%, rgba(0, 132, 255, 0.15) 100%);
+          background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(220, 30, 36, 0.1) 100%);
         }
       `}</style>
     </div>

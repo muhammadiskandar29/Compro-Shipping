@@ -33,7 +33,7 @@ export const DirectorCard: React.FC<DirectorCardProps> = ({ name, role, desc, im
           position: relative;
           height: 250px;
           overflow: hidden;
-          background-color: #061120;
+          background-color: var(--color-bg-light);
         }
 
         .director-img {
@@ -55,7 +55,7 @@ export const DirectorCard: React.FC<DirectorCardProps> = ({ name, role, desc, im
           left: 0;
           width: 100%;
           height: 100%;
-          background: linear-gradient(to top, rgba(3, 8, 18, 0.95) 0%, transparent 60%);
+          background: linear-gradient(to top, rgba(15, 23, 42, 0.15) 0%, transparent 60%);
         }
 
         .director-info {

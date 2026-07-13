@@ -166,7 +166,7 @@ export default function FleetPage() {
           left: 0;
           width: 100%;
           height: 100%;
-          background: linear-gradient(to bottom, rgba(3, 8, 18, 0.8) 0%, var(--color-bg-dark) 100%);
+          background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, var(--color-bg-dark) 100%);
           z-index: 1;
         }
 

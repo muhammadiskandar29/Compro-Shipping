@@ -348,7 +348,7 @@ function ContactForm() {
           left: 0;
           width: 100%;
           height: 100%;
-          background: linear-gradient(to bottom, rgba(3, 8, 18, 0.8) 0%, var(--color-bg-dark) 100%);
+          background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, var(--color-bg-dark) 100%);
           z-index: 1;
         }
 
@@ -360,6 +360,7 @@ function ContactForm() {
         .header-container h1 {
           font-size: 3rem;
           margin: 1rem 0;
+          color: var(--color-text-dark);
         }
 
         .header-container p {
@@ -396,6 +397,7 @@ function ContactForm() {
 
         .contact-info-panel h2 {
           font-size: 2.2rem;
+          color: var(--color-text-dark);
         }
 
         .contact-sub-info {
@@ -415,7 +417,7 @@ function ContactForm() {
 
         .hq-card h4 {
           font-size: 1.1rem;
-          color: #ffffff;
+          color: var(--color-text-dark);
         }
 
         .hq-card p {
@@ -433,7 +435,7 @@ function ContactForm() {
         }
 
         .hq-phone-email strong {
-          color: #ffffff;
+          color: var(--color-text-dark);
         }
 
         .office-blueprint {
@@ -474,6 +476,7 @@ function ContactForm() {
         .form-header h3 {
           font-size: 1.4rem;
           margin-bottom: 0.4rem;
+          color: var(--color-text-dark);
         }
 
         .form-header p {
@@ -515,29 +518,29 @@ function ContactForm() {
         .form-group label {
           font-size: 0.82rem;
           font-weight: 600;
-          color: var(--color-text-main);
+          color: var(--color-text-dark);
           letter-spacing: 0.02em;
         }
 
         .form-group input, .form-group select {
-          background: rgba(255, 255, 255, 0.02);
+          background: rgba(15, 23, 42, 0.02);
           border: 1px solid var(--color-border);
           border-radius: 6px;
           padding: 0.75rem 1rem;
           font-size: 0.9rem;
-          color: #ffffff;
+          color: var(--color-text-dark);
           outline: none;
           transition: var(--transition-smooth);
         }
 
         .form-group input:focus, .form-group select:focus {
           border-color: var(--color-primary);
-          box-shadow: 0 0 10px rgba(0, 132, 255, 0.2);
+          box-shadow: 0 0 10px rgba(220, 30, 36, 0.15);
         }
 
         .form-group select option {
-          background-color: var(--color-bg-dark);
-          color: #ffffff;
+          background-color: var(--color-bg-light);
+          color: var(--color-text-dark);
         }
 
         .form-submit-btn {
@@ -551,19 +554,19 @@ function ContactForm() {
         /* Quote Result terminal styling */
         .quote-result-panel {
           margin-top: 2.5rem;
-          border: 1px solid rgba(0, 132, 255, 0.3);
-          background: rgba(2, 6, 12, 0.85);
+          border: 1px solid rgba(220, 30, 36, 0.25);
+          background: #ffffff;
           border-radius: 8px;
           overflow: hidden;
-          box-shadow: 0 10px 25px rgba(0, 132, 255, 0.1);
+          box-shadow: 0 10px 25px rgba(220, 30, 36, 0.05);
         }
 
         .result-header {
-          background: rgba(0, 132, 255, 0.08);
+          background: rgba(220, 30, 36, 0.04);
           padding: 0.8rem 1.2rem;
           display: flex;
           justify-content: space-between;
-          border-bottom: 1px solid rgba(0, 132, 255, 0.2);
+          border-bottom: 1px solid rgba(220, 30, 36, 0.12);
         }
 
         .result-title {
@@ -591,7 +594,7 @@ function ContactForm() {
           display: flex;
           justify-content: space-between;
           font-size: 0.88rem;
-          border-bottom: 1px dashed rgba(255, 255, 255, 0.05);
+          border-bottom: 1px dashed rgba(15, 23, 42, 0.05);
           padding-bottom: 0.5rem;
         }
 
@@ -600,7 +603,7 @@ function ContactForm() {
         }
 
         .result-row strong {
-          color: #ffffff;
+          color: var(--color-text-dark);
         }
 
         .total-row {
@@ -614,7 +617,7 @@ function ContactForm() {
           font-family: var(--font-display);
           font-size: 1.5rem;
           font-weight: 800;
-          color: var(--color-accent) !important;
+          color: var(--color-primary) !important;
         }
 
         .disclaimer {
@@ -630,7 +633,7 @@ function ContactForm() {
           justify-content: center;
           padding: 0.9rem;
           font-weight: 700;
-          box-shadow: 0 5px 20px rgba(0, 132, 255, 0.3);
+          box-shadow: 0 5px 20px rgba(220, 30, 36, 0.2);
         }
 
         /* Success Panel */
@@ -649,6 +652,7 @@ function ContactForm() {
 
         .submission-success-pane h3 {
           font-size: 1.6rem;
+          color: var(--color-text-dark);
         }
 
         .submission-success-pane p {

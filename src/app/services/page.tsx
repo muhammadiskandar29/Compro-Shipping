@@ -141,7 +141,7 @@ export default function ServicesPage() {
           left: 0;
           width: 100%;
           height: 100%;
-          background: linear-gradient(to bottom, rgba(3, 8, 18, 0.8) 0%, var(--color-bg-dark) 100%);
+          background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, var(--color-bg-dark) 100%);
           z-index: 1;
         }
 
@@ -297,7 +297,7 @@ export default function ServicesPage() {
           left: 0;
           width: 100%;
           height: 100%;
-          background: linear-gradient(135deg, rgba(3, 8, 18, 0.2) 0%, rgba(0, 132, 255, 0.15) 100%);
+          background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(220, 30, 36, 0.1) 100%);
         }
 
         /* Safety section */
