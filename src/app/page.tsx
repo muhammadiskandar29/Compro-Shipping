@@ -222,20 +222,20 @@ export default function Home() {
                 {/* Background grids */}
                 <defs>
                   <pattern id="map-grid" width="20" height="20" patternUnits="userSpaceOnUse">
-                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.03)" strokeWidth="1"/>
+                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(15, 23, 42, 0.03)" strokeWidth="1"/>
                   </pattern>
                 </defs>
                 <rect width="100%" height="100%" fill="url(#map-grid)" />
 
                 {/* Abstract Stylized Landmasses (Sumatera, Jawa, Kalimantan, Sulawesi) */}
                 {/* Sumatera */}
-                <path d="M10,20 L80,90 L90,110 L150,150 L140,160 L70,110 L10,60 Z" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" strokeWidth="1" />
+                <path d="M10,20 L80,90 L90,110 L150,150 L140,160 L70,110 L10,60 Z" fill="rgba(15, 23, 42, 0.05)" stroke="rgba(15, 23, 42, 0.12)" strokeWidth="1" />
                 {/* Jawa */}
-                <path d="M145,160 L180,165 L240,172 L280,175 L285,170 L230,160 L150,155 Z" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" strokeWidth="1" />
+                <path d="M145,160 L180,165 L240,172 L280,175 L285,170 L230,160 L150,155 Z" fill="rgba(15, 23, 42, 0.05)" stroke="rgba(15, 23, 42, 0.12)" strokeWidth="1" />
                 {/* Kalimantan */}
-                <path d="M190,40 L260,35 L280,65 L270,110 L220,115 L180,90 Z" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" strokeWidth="1" />
+                <path d="M190,40 L260,35 L280,65 L270,110 L220,115 L180,90 Z" fill="rgba(15, 23, 42, 0.05)" stroke="rgba(15, 23, 42, 0.12)" strokeWidth="1" />
                 {/* Sulawesi */}
-                <path d="M300,60 L330,55 L350,85 L320,95 L310,130 L295,110 L315,90 Z" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" strokeWidth="1" />
+                <path d="M300,60 L330,55 L350,85 L320,95 L310,130 L295,110 L315,90 Z" fill="rgba(15, 23, 42, 0.05)" stroke="rgba(15, 23, 42, 0.12)" strokeWidth="1" />
 
                 {/* Main Ports Coordinate Nodes */}
                 {/* Jakarta */}
@@ -439,8 +439,8 @@ export default function Home() {
           height: 100%;
           background: linear-gradient(
             to bottom,
-            rgba(3, 8, 18, 0.7) 0%,
-            rgba(3, 8, 18, 0.9) 80%,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(255, 255, 255, 0.8) 70%,
             var(--color-bg-dark) 100%
           );
           z-index: 2;
@@ -453,8 +453,8 @@ export default function Home() {
           width: 100%;
           height: 100%;
           background-image: 
-            radial-gradient(rgba(0, 132, 255, 0.08) 1px, transparent 1px),
-            radial-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+            radial-gradient(rgba(220, 30, 36, 0.04) 1px, transparent 1px),
+            radial-gradient(rgba(15, 23, 42, 0.02) 1px, transparent 1px);
           background-size: 40px 40px;
           background-position: 0 0, 20px 20px;
           z-index: 3;
@@ -489,9 +489,9 @@ export default function Home() {
         }
 
         .text-glow {
-          color: #ffffff;
-          text-shadow: 0 0 20px rgba(0, 132, 255, 0.6);
-          background: linear-gradient(to right, #ffffff, var(--color-primary));
+          color: var(--color-primary);
+          text-shadow: 0 0 20px rgba(220, 30, 36, 0.2);
+          background: linear-gradient(to right, var(--color-primary), #ab1216);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
@@ -546,7 +546,7 @@ export default function Home() {
           font-weight: 700;
           letter-spacing: 0.05em;
           text-transform: uppercase;
-          color: #ffffff;
+          color: var(--color-text-dark);
         }
 
         .widget-body {
@@ -569,7 +569,7 @@ export default function Home() {
         .widget-val {
           font-size: 0.9rem;
           font-weight: 600;
-          color: #ffffff;
+          color: var(--color-text-dark);
         }
 
         .color-green {
@@ -712,7 +712,7 @@ export default function Home() {
 
         .map-sidebar {
           padding: 2.5rem;
-          background: rgba(1, 4, 10, 0.4);
+          background: rgba(15, 23, 42, 0.02);
           border-right: 1px solid var(--color-border);
         }
 
@@ -744,7 +744,7 @@ export default function Home() {
           width: 100%;
           text-align: left;
           padding: 0.8rem 1rem;
-          background: rgba(255, 255, 255, 0.02);
+          background: rgba(15, 23, 42, 0.02);
           border: 1px solid var(--color-border);
           border-radius: 6px;
           color: var(--color-text-main);
@@ -752,8 +752,8 @@ export default function Home() {
         }
 
         .lane-btn:hover, .lane-btn.active {
-          background: rgba(0, 132, 255, 0.05);
-          border-color: rgba(0, 132, 255, 0.3);
+          background: rgba(220, 30, 36, 0.05);
+          border-color: rgba(220, 30, 36, 0.3);
         }
 
         .lane-btn-header {
@@ -770,8 +770,8 @@ export default function Home() {
         }
 
         .lane-btn.active .lane-dot-indicator {
-          background-color: var(--color-accent);
-          box-shadow: 0 0 8px var(--color-accent);
+          background-color: var(--color-primary);
+          box-shadow: 0 0 8px var(--color-primary);
         }
 
         .lane-btn-header h4 {
@@ -782,7 +782,7 @@ export default function Home() {
         .lane-details {
           margin-top: 0.6rem;
           padding-top: 0.6rem;
-          border-top: 1px solid rgba(255, 255, 255, 0.05);
+          border-top: 1px solid rgba(15, 23, 42, 0.08);
           display: flex;
           flex-direction: column;
           gap: 0.25rem;
@@ -791,7 +791,7 @@ export default function Home() {
         }
 
         .lane-details strong {
-          color: #ffffff;
+          color: var(--color-text-dark);
         }
 
         .lane-status-row {
@@ -815,7 +815,7 @@ export default function Home() {
           display: flex;
           align-items: center;
           justify-content: center;
-          background: radial-gradient(circle at center, rgba(16, 37, 66, 0.2) 0%, transparent 100%);
+          background: radial-gradient(circle at center, rgba(220, 30, 36, 0.05) 0%, transparent 100%);
         }
 
         .indonesia-svg-map {
@@ -828,7 +828,8 @@ export default function Home() {
         .port-node text {
           font-family: var(--font-display);
           pointer-events: none;
-          text-shadow: 0 1px 4px rgba(0,0,0,0.8);
+          text-shadow: 0 1px 2px rgba(255, 255, 255, 1);
+          fill: var(--color-text-dark);
         }
 
         .pulse-circle {

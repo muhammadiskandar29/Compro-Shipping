@@ -103,8 +103,8 @@ export const Footer: React.FC = () => {
 
       <style>{`
         .footer-root {
-          background-color: #02060f;
-          border-top: 1px solid var(--color-border);
+          background-color: #f8fafc;
+          border-top: 2px solid var(--color-primary);
           padding: 5rem 0 2rem 0;
           margin-top: auto;
           position: relative;
@@ -148,7 +148,7 @@ export const Footer: React.FC = () => {
           font-weight: 800;
           font-size: 1.2rem;
           letter-spacing: 0.05em;
-          color: #ffffff;
+          color: var(--color-text-dark);
         }
 
         .footer-desc {
@@ -168,10 +168,10 @@ export const Footer: React.FC = () => {
           font-size: 0.7rem;
           font-weight: 700;
           padding: 0.25rem 0.5rem;
-          border: 1px solid rgba(255, 255, 255, 0.15);
+          border: 1px solid rgba(15, 23, 42, 0.15);
           color: var(--color-text-muted);
           border-radius: 4px;
-          background: rgba(255, 255, 255, 0.02);
+          background: rgba(15, 23, 42, 0.02);
         }
 
         .footer-title {
@@ -179,7 +179,7 @@ export const Footer: React.FC = () => {
           font-weight: 700;
           font-size: 1rem;
           letter-spacing: 0.05em;
-          color: #ffffff;
+          color: var(--color-text-dark);
           text-transform: uppercase;
           position: relative;
           padding-bottom: 0.5rem;
@@ -209,7 +209,7 @@ export const Footer: React.FC = () => {
         }
 
         .footer-links a:hover {
-          color: #ffffff;
+          color: var(--color-primary);
           transform: translateX(5px);
         }
 
@@ -229,7 +229,7 @@ export const Footer: React.FC = () => {
 
         .office-name {
           font-weight: 600;
-          color: #ffffff;
+          color: var(--color-text-dark);
         }
 
         .office-addr {
@@ -240,7 +240,7 @@ export const Footer: React.FC = () => {
           display: flex;
           flex-direction: column;
           gap: 0.25rem;
-          border-left: 2px solid rgba(255, 255, 255, 0.1);
+          border-left: 2px solid rgba(15, 23, 42, 0.1);
           padding-left: 0.8rem;
           transition: var(--transition-smooth);
         }
@@ -263,7 +263,7 @@ export const Footer: React.FC = () => {
         }
 
         .footer-bottom {
-          border-top: 1px solid var(--color-border);
+          border-top: 1px solid rgba(15, 23, 42, 0.08);
           padding-top: 2rem;
           margin-top: 2rem;
         }
@@ -303,8 +303,9 @@ export const Footer: React.FC = () => {
 
         .copyright-lorem-text {
           font-size: 0.75rem;
-          color: rgba(255, 255, 255, 0.25);
+          color: var(--color-text-muted);
           line-height: 1.5;
+          opacity: 0.8;
         }
 
         .footer-coordinates {
@@ -313,7 +314,7 @@ export const Footer: React.FC = () => {
           align-items: flex-end;
           gap: 0.25rem;
           font-size: 0.8rem;
-          color: rgba(255, 255, 255, 0.3);
+          color: var(--color-text-muted);
           font-family: monospace;
           text-align: right;
         }

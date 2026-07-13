@@ -129,11 +129,11 @@ export const Navbar: React.FC = () => {
 
         .navbar-root.scrolled {
           padding: 0.8rem 0;
-          background: rgba(3, 8, 18, 0.75);
+          background: rgba(255, 255, 255, 0.9);
           backdrop-filter: blur(20px);
           -webkit-backdrop-filter: blur(20px);
           border-bottom: 1px solid var(--color-border);
-          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
         }
 
         .navbar-container {
@@ -149,7 +149,7 @@ export const Navbar: React.FC = () => {
         }
 
         .logo-svg {
-          filter: drop-shadow(0 2px 8px rgba(0, 132, 255, 0.3));
+          filter: drop-shadow(0 2px 8px rgba(220, 30, 36, 0.3));
           transition: var(--transition-bounce);
         }
 
@@ -167,7 +167,7 @@ export const Navbar: React.FC = () => {
           font-weight: 800;
           font-size: 1.25rem;
           letter-spacing: 0.05em;
-          color: #ffffff;
+          color: var(--color-text-dark);
           line-height: 1.1;
         }
 
@@ -199,11 +199,11 @@ export const Navbar: React.FC = () => {
         }
 
         .nav-item:hover {
-          color: #ffffff;
+          color: var(--color-primary);
         }
 
         .nav-item.active {
-          color: #ffffff;
+          color: var(--color-text-dark);
           font-weight: 600;
         }
 
@@ -228,14 +228,14 @@ export const Navbar: React.FC = () => {
           display: inline-flex;
           align-items: center;
           gap: 0.5rem;
-          background: rgba(0, 132, 255, 0.1);
+          background: rgba(220, 30, 36, 0.05);
           border: 1.5px solid var(--color-primary);
-          color: #ffffff;
+          color: var(--color-primary);
           padding: 0.6rem 1.4rem;
           border-radius: 6px;
           font-size: 0.9rem;
           font-weight: 600;
-          box-shadow: 0 0 15px rgba(0, 132, 255, 0.1);
+          box-shadow: 0 0 15px rgba(220, 30, 36, 0.1);
           transition: var(--transition-smooth);
         }
 
@@ -245,7 +245,8 @@ export const Navbar: React.FC = () => {
 
         .btn-quote:hover {
           background: var(--color-primary);
-          box-shadow: 0 0 25px rgba(0, 132, 255, 0.4);
+          color: #ffffff;
+          box-shadow: 0 0 25px rgba(220, 30, 36, 0.4);
           transform: translateY(-1px);
         }
 
@@ -272,7 +273,7 @@ export const Navbar: React.FC = () => {
         .mobile-menu-toggle span {
           width: 100%;
           height: 3px;
-          background-color: #ffffff;
+          background-color: var(--color-text-dark);
           border-radius: 3px;
           transition: var(--transition-smooth);
         }
@@ -296,7 +297,7 @@ export const Navbar: React.FC = () => {
           left: 0;
           width: 100%;
           height: 100vh;
-          background: rgba(3, 8, 18, 0.98);
+          background: rgba(255, 255, 255, 0.98);
           backdrop-filter: blur(20px);
           -webkit-backdrop-filter: blur(20px);
           display: flex;
@@ -350,7 +351,7 @@ export const Navbar: React.FC = () => {
           border-radius: 8px;
           font-weight: 700;
           font-size: 1.1rem;
-          box-shadow: 0 4px 15px rgba(0, 132, 255, 0.3);
+          box-shadow: 0 4px 15px rgba(220, 30, 36, 0.3);
         }
 
         @keyframes fadeInUpMobile {

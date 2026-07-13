@@ -98,9 +98,9 @@ export const VesselCard: React.FC<VesselCardProps> = ({ vessel }) => {
       {/* Schematic overlay blueprint element */}
       <div className="blueprint-overlay">
         <svg width="100%" height="80" viewBox="0 0 100 40" fill="none">
-          <path d="M5 25 L45 25 L55 35 L15 35 Z" stroke="rgba(255,255,255,0.06)" strokeWidth="0.5" />
-          <line x1="20" y1="10" x2="20" y2="35" stroke="rgba(255,255,255,0.04)" strokeWidth="0.5" />
-          <line x1="40" y1="10" x2="40" y2="35" stroke="rgba(255,255,255,0.04)" strokeWidth="0.5" />
+          <path d="M5 25 L45 25 L55 35 L15 35 Z" stroke="rgba(15, 23, 42, 0.06)" strokeWidth="0.5" />
+          <line x1="20" y1="10" x2="20" y2="35" stroke="rgba(15, 23, 42, 0.04)" strokeWidth="0.5" />
+          <line x1="40" y1="10" x2="40" y2="35" stroke="rgba(15, 23, 42, 0.04)" strokeWidth="0.5" />
         </svg>
       </div>
 
@@ -151,6 +151,7 @@ export const VesselCard: React.FC<VesselCardProps> = ({ vessel }) => {
         .vessel-name {
           font-size: 1.25rem;
           font-weight: 700;
+          color: var(--color-text-dark);
         }
 
         .vessel-spec-grid {
@@ -173,7 +174,7 @@ export const VesselCard: React.FC<VesselCardProps> = ({ vessel }) => {
 
         .spec-val {
           font-weight: 600;
-          color: #ffffff;
+          color: var(--color-text-dark);
         }
 
         .text-primary-color {
