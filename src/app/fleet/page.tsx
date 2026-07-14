@@ -31,7 +31,7 @@ export default function FleetPage() {
       engine: 'N/A',
       year: '2020',
       class: 'BKI + RINA Kelas A',
-      img: 'https://images.unsplash.com/photo-1505705694340-019e1e335916?auto=format&fit=crop&w=600&q=80'
+      img: 'https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=600&q=80'
     },
     {
       id: 'sr-barge3301',
@@ -57,7 +57,7 @@ export default function FleetPage() {
       engine: 'Caterpillar 2x 1200 HP',
       year: '2019',
       class: 'BKI Registered',
-      img: 'https://images.unsplash.com/photo-1505705694340-019e1e335916?auto=format&fit=crop&w=600&q=80'
+      img: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=600&q=80'
     },
     {
       id: 'sr-carrier1',
@@ -70,7 +70,7 @@ export default function FleetPage() {
       engine: 'Mitsui-MAN B&W 4200 HP',
       year: '2018',
       class: 'Nippon Kaiji Kyokai (ClassNK)',
-      img: 'https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=600&q=80'
+      img: 'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=600&q=80'
     },
     {
       id: 'sr-barge2701',
@@ -83,7 +83,7 @@ export default function FleetPage() {
       engine: 'N/A',
       year: '2017',
       class: 'BKI Registered',
-      img: 'https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=600&q=80'
+      img: 'https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=600&q=80'
     }
   ];
 

@@ -62,7 +62,7 @@ export default function Home() {
           className="hero-parallax-bg" 
           style={{ 
             transform: `translateY(${scrollY * 0.4}px)`,
-            backgroundImage: `url('https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=1920&q=80')`
+            backgroundImage: `url('https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=1920&q=80')`
           }}
         />
         {/* Dark overlay for text readability */}
@@ -366,7 +366,7 @@ export default function Home() {
                     </ul>
                     <Link href="/services" className="btn-primary">Selengkapnya</Link>
                   </div>
-                  <div className="pane-media" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1505705694340-019e1e335916?auto=format&fit=crop&w=800&q=80')` }} />
+                  <div className="pane-media" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=800&q=80')` }} />
                 </div>
               )}
 
@@ -401,7 +401,7 @@ export default function Home() {
 
           <div className="gallery-grid">
             <div className="gallery-card glass-panel">
-              <div className="gallery-img-wrapper" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=600&q=80')` }}>
+              <div className="gallery-img-wrapper" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=600&q=80')` }}>
                 <div className="gallery-overlay">
                   <div className="gallery-info">
                     <span className="gallery-category">Bulk Carrier</span>
@@ -425,7 +425,7 @@ export default function Home() {
             </div>
 
             <div className="gallery-card glass-panel">
-              <div className="gallery-img-wrapper" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1505705694340-019e1e335916?auto=format&fit=crop&w=600&q=80')` }}>
+              <div className="gallery-img-wrapper" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=600&q=80')` }}>
                 <div className="gallery-overlay">
                   <div className="gallery-info">
                     <span className="gallery-category">Port Operations</span>

@@ -19,7 +19,7 @@ export default function AboutPage() {
   return (
     <div className="about-root animate-fade-in">
       {/* 1. Page Header */}
-      <section className="about-header" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1505705694340-019e1e335916?auto=format&fit=crop&w=1920&q=80')` }}>
+      <section className="about-header" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1920&q=80')` }}>
         <div className="about-header-overlay" />
         <div className="container header-container">
           <span className="badge badge-accent">Profil Perusahaan</span>
