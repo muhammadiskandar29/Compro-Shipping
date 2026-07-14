@@ -190,6 +190,7 @@ export default function FleetPage() {
         /* Filter Tab Styles */
         .fleet-catalog-section {
           padding: 5rem 0;
+          background-color: var(--color-bg-light);
         }
 
         .filter-tabs {
@@ -213,16 +214,16 @@ export default function FleetPage() {
         }
 
         .filter-btn:hover {
-          color: #ffffff;
-          border-color: rgba(255, 255, 255, 0.25);
-          background: rgba(255, 255, 255, 0.03);
+          color: var(--color-primary);
+          border-color: var(--color-primary);
+          background: rgba(220, 30, 36, 0.04);
         }
 
         .filter-btn.active {
           color: #ffffff;
           border-color: var(--color-primary);
           background: var(--color-primary);
-          box-shadow: 0 4px 15px rgba(0, 132, 255, 0.3);
+          box-shadow: 0 4px 15px rgba(220, 30, 36, 0.25);
         }
 
         /* 3D Card Grid */

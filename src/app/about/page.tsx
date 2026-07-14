@@ -41,15 +41,15 @@ export default function AboutPage() {
             <div className="blueprint-map">
               <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" className="blueprint-svg">
                 {/* Radar Grid circles */}
-                <circle cx="100" cy="100" r="80" stroke="rgba(0, 132, 255, 0.15)" strokeWidth="1" />
-                <circle cx="100" cy="100" r="50" stroke="rgba(0, 132, 255, 0.15)" strokeWidth="1" />
-                <line x1="100" y1="10" x2="100" y2="190" stroke="rgba(0, 132, 255, 0.1)" />
-                <line x1="10" y1="100" x2="190" y2="100" stroke="rgba(0, 132, 255, 0.1)" />
+                <circle cx="100" cy="100" r="80" stroke="rgba(220, 30, 36, 0.15)" strokeWidth="1" />
+                <circle cx="100" cy="100" r="50" stroke="rgba(220, 30, 36, 0.15)" strokeWidth="1" />
+                <line x1="100" y1="10" x2="100" y2="190" stroke="rgba(220, 30, 36, 0.1)" />
+                <line x1="10" y1="100" x2="190" y2="100" stroke="rgba(220, 30, 36, 0.1)" />
                 
                 {/* Ship Blueprint Top View */}
-                <path d="M100 35 C115 60 120 120 115 155 L85 155 C80 120 85 60 100 35 Z" stroke="#ffffff" strokeWidth="2" fill="rgba(0, 132, 255, 0.05)" />
-                <rect x="92" y="100" width="16" height="30" stroke="#ffffff" strokeWidth="1" />
-                <rect x="95" y="60" width="10" height="25" stroke="var(--color-accent)" strokeWidth="1.5" />
+                <path d="M100 35 C115 60 120 120 115 155 L85 155 C80 120 85 60 100 35 Z" stroke="var(--color-text-dark)" strokeWidth="2" fill="rgba(220, 30, 36, 0.05)" />
+                <rect x="92" y="100" width="16" height="30" stroke="var(--color-text-dark)" strokeWidth="1" />
+                <rect x="95" y="60" width="10" height="25" stroke="var(--color-primary)" strokeWidth="1.5" />
                 <circle cx="100" cy="140" r="4" fill="var(--color-primary)" />
               </svg>
               <div className="blueprint-tag">MODEL SPECIFICATION: SR-BARGE 300FT</div>
@@ -180,6 +180,7 @@ export default function AboutPage() {
         /* Overview style */
         .overview-section {
           padding: 6rem 0;
+          background-color: var(--color-bg-light);
         }
 
         .overview-grid {
@@ -218,7 +219,9 @@ export default function AboutPage() {
           display: flex;
           align-items: center;
           justify-content: center;
-          background: rgba(10, 25, 47, 0.4);
+          background: rgba(15, 23, 42, 0.02);
+          border: 1px solid var(--color-border);
+          border-radius: 12px;
           position: relative;
         }
 
@@ -230,7 +233,7 @@ export default function AboutPage() {
         .blueprint-svg {
           width: 180px;
           height: 180px;
-          filter: drop-shadow(0 0 15px rgba(0, 132, 255, 0.25));
+          filter: drop-shadow(0 0 15px rgba(220, 30, 36, 0.1));
         }
 
         .blueprint-tag {
@@ -267,11 +270,11 @@ export default function AboutPage() {
 
         .box-icon {
           color: var(--color-primary);
-          background: rgba(0,132,255,0.05);
+          background: rgba(220, 30, 36, 0.06);
           width: 60px;
           height: 60px;
           border-radius: 8px;
-          border: 1px solid rgba(0,132,255,0.15);
+          border: 1px solid rgba(220, 30, 36, 0.2);
           display: flex;
           align-items: center;
           justify-content: center;
@@ -310,6 +313,7 @@ export default function AboutPage() {
         /* Timeline style */
         .history-section {
           padding: 6rem 0;
+          background-color: var(--color-bg-light);
         }
 
         .timeline {

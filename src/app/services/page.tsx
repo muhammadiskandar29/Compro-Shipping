@@ -165,6 +165,7 @@ export default function ServicesPage() {
         /* Detail List */
         .services-detail-section {
           padding: 6rem 0;
+          background-color: var(--color-bg-light);
         }
 
         .services-list-container {
@@ -243,7 +244,7 @@ export default function ServicesPage() {
 
         .service-specs-box {
           width: 100%;
-          background: rgba(255,255,255,0.02);
+          background: rgba(15, 23, 42, 0.02);
           border: 1px solid var(--color-border);
           border-radius: 8px;
           padding: 1.2rem 1.5rem;
@@ -252,7 +253,7 @@ export default function ServicesPage() {
         .service-specs-box h4 {
           font-size: 0.95rem;
           margin-bottom: 0.6rem;
-          color: #ffffff;
+          color: var(--color-text-dark);
         }
 
         .service-specs-list {
@@ -307,8 +308,8 @@ export default function ServicesPage() {
 
         .safety-box {
           padding: 4rem;
-          background: linear-gradient(135deg, var(--color-bg-card) 0%, rgba(255, 107, 53, 0.05) 100%);
-          border-left: 4px solid var(--color-accent);
+          background: linear-gradient(135deg, var(--color-bg-card) 0%, rgba(220, 30, 36, 0.05) 100%);
+          border-left: 4px solid var(--color-primary);
         }
 
         @media (max-width: 767px) {
@@ -353,7 +354,7 @@ export default function ServicesPage() {
           width: 32px;
           height: 32px;
           border-radius: 50%;
-          background-color: var(--color-accent);
+          background-color: var(--color-primary);
           color: #ffffff;
           font-weight: bold;
           display: flex;

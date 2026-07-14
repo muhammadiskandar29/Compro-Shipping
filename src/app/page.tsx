@@ -414,10 +414,11 @@ export default function Home() {
         .hero-section {
           position: relative;
           height: 100vh;
-          min-height: 650px;
+          min-height: 720px;
           display: flex;
           align-items: center;
           overflow: hidden;
+          padding-top: 80px; /* Offset fixed navbar */
         }
 
         .hero-parallax-bg {
@@ -439,8 +440,8 @@ export default function Home() {
           height: 100%;
           background: linear-gradient(
             to bottom,
-            rgba(255, 255, 255, 0.3) 0%,
-            rgba(255, 255, 255, 0.8) 70%,
+            rgba(255, 255, 255, 0.45) 0%,
+            rgba(255, 255, 255, 0.85) 60%,
             var(--color-bg-dark) 100%
           );
           z-index: 2;
@@ -467,8 +468,9 @@ export default function Home() {
           display: flex;
           align-items: center;
           justify-content: space-between;
-          gap: 2rem;
-          margin-top: 4rem;
+          gap: 3rem;
+          width: 100%;
+          margin-top: 0;
         }
 
         .hero-content {
@@ -517,7 +519,7 @@ export default function Home() {
           z-index: 11;
         }
 
-        @media (max-width: 991px) {
+        @media (max-width: 1199px) {
           .hero-widget {
             display: none;
           }
@@ -618,9 +620,9 @@ export default function Home() {
           font-family: var(--font-display);
           font-size: 2.8rem;
           font-weight: 800;
-          color: #ffffff;
+          color: var(--color-primary);
           line-height: 1;
-          background: linear-gradient(135deg, #ffffff 30%, var(--color-primary) 100%);
+          background: linear-gradient(135deg, var(--color-primary) 30%, #ab1216 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
@@ -641,6 +643,7 @@ export default function Home() {
         .values-section {
           padding: 6rem 0;
           position: relative;
+          background-color: var(--color-bg-light);
         }
 
         .values-grid {
@@ -665,18 +668,18 @@ export default function Home() {
         .value-visual {
           width: 70px;
           height: 70px;
-          background: rgba(0, 132, 255, 0.05);
-          border: 1px solid rgba(0, 132, 255, 0.15);
+          background: rgba(220, 30, 36, 0.05);
+          border: 1px solid rgba(220, 30, 36, 0.15);
           border-radius: 12px;
           display: flex;
           align-items: center;
           justify-content: center;
-          box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+          box-shadow: 0 4px 10px rgba(15,23,42,0.05);
           transition: var(--transition-smooth);
         }
 
         .value-card:hover .value-visual {
-          background: rgba(0, 132, 255, 0.12);
+          background: rgba(220, 30, 36, 0.12);
           border-color: var(--color-primary);
           transform: translateY(-3px) scale(1.03);
         }
@@ -849,6 +852,7 @@ export default function Home() {
         /* Services teaser styling */
         .services-teaser {
           padding: 6rem 0;
+          background-color: var(--color-bg-light);
         }
 
         .services-tab-wrapper {
@@ -880,15 +884,15 @@ export default function Home() {
         }
 
         .tab-trig.active {
-          color: #ffffff;
-          background: rgba(0, 132, 255, 0.1);
-          box-shadow: inset 0 0 10px rgba(0, 132, 255, 0.15);
-          border: 1px solid rgba(0, 132, 255, 0.2);
+          color: var(--color-primary);
+          background: rgba(220, 30, 36, 0.08);
+          box-shadow: inset 0 0 10px rgba(220, 30, 36, 0.1);
+          border: 1px solid rgba(220, 30, 36, 0.25);
         }
 
         .tab-trig:hover:not(.active) {
-          color: #ffffff;
-          background: rgba(255, 255, 255, 0.02);
+          color: var(--color-primary);
+          background: rgba(220, 30, 36, 0.04);
         }
 
         .tab-content-panel {
@@ -969,7 +973,7 @@ export default function Home() {
           align-items: center;
           justify-content: space-between;
           gap: 2rem;
-          background: linear-gradient(135deg, var(--color-bg-card) 0%, rgba(0, 132, 255, 0.05) 100%);
+          background: linear-gradient(135deg, var(--color-bg-card) 0%, rgba(220, 30, 36, 0.05) 100%);
         }
 
         @media (max-width: 767px) {

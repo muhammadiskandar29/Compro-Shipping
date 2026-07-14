@@ -136,12 +136,12 @@ function ContactForm() {
             <div className="office-blueprint glass-panel">
               <div className="blueprint-title">SUPPORT CENTER COORDINATE GRID</div>
               <svg viewBox="0 0 200 100" fill="none" className="bp-grid-svg">
-                <rect x="10" y="10" width="180" height="80" rx="4" stroke="rgba(255,255,255,0.06)" strokeWidth="1" />
+                <rect x="10" y="10" width="180" height="80" rx="4" stroke="rgba(15,23,42,0.06)" strokeWidth="1" />
                 <path d="M20,50 Q60,20 100,50 T180,50" stroke="var(--color-primary)" strokeWidth="1" opacity="0.3" strokeDasharray="3 3" />
-                <path d="M30,30 L170,70" stroke="var(--color-accent)" strokeWidth="0.8" opacity="0.4" />
-                <circle cx="100" cy="50" r="4" fill="var(--color-accent)" />
-                <circle cx="100" cy="50" r="10" stroke="var(--color-accent)" strokeWidth="1" opacity="0.5" className="pulse-circle" />
-                <text x="115" y="53" fill="#ffffff" fontSize="6" fontFamily="monospace">OFFICE AXIS ACTIVE</text>
+                <path d="M30,30 L170,70" stroke="var(--color-primary)" strokeWidth="0.8" opacity="0.4" />
+                <circle cx="100" cy="50" r="4" fill="var(--color-primary)" />
+                <circle cx="100" cy="50" r="10" stroke="var(--color-primary)" strokeWidth="1" opacity="0.5" className="pulse-circle" />
+                <text x="115" y="53" fill="var(--color-text-dark)" fontSize="6" fontFamily="monospace">OFFICE AXIS ACTIVE</text>
               </svg>
             </div>
           </div>
