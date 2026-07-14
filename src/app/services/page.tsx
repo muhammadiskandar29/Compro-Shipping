@@ -21,7 +21,7 @@ export default function ServicesPage() {
       title: 'Sewa Tongkang & Kapal Tunda (Tug & Barge Chartering)',
       subtitle: 'Skema Kontrak Time Charter (TC) & Freight Charter (FC)',
       desc: 'Menyediakan armada kapal tunda (Tugboat) bertenaga 1.600 HP hingga 3.200 HP yang dipadukan dengan tongkang (Barge) ukuran 270 kaki, 300 kaki, dan 330 kaki. Tersedia untuk kontrak jangka panjang maupun trip charter.',
-      img: 'https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80',
+      img: 'https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=800&q=80',
       specs: [
         'Armada Tugboat: Mesin Caterpillar / Yanmar Dual Screw',
         'Armada Barge: Konstruksi baja diperkuat untuk kargo alat berat',
@@ -34,7 +34,7 @@ export default function ServicesPage() {
       title: 'Jasa Keagenan Kapal (Vessel Agency Services)',
       subtitle: 'Clearance Pelabuhan Cepat & Efisien',
       desc: 'Melayani keagenan untuk kapal domestik maupun asing yang berlabuh di Tanjung Priok, Tanjung Perak, Batam, dan pelabuhan utama lainnya. Mengurus seluruh kebutuhan administrasi kepelabuhanan secara legal dan profesional.',
-      img: 'https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80',
+      img: 'https://images.unsplash.com/photo-1505705694340-019e1e335916?auto=format&fit=crop&w=800&q=80',
       specs: [
         'Izin Masuk: Port Clearance Syahbandar, Bea Cukai, Imigrasi, Karantina',
         'Suplai Kapal: Bahan bakar (Bunker), Air Bersih, Perbekalan makanan kru',
@@ -60,7 +60,7 @@ export default function ServicesPage() {
   return (
     <div className="services-root animate-fade-in">
       {/* 1. Page Header */}
-      <section className="services-header" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1920&q=80')` }}>
+      <section className="services-header" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1505705694340-019e1e335916?auto=format&fit=crop&w=1920&q=80')` }}>
         <div className="services-header-overlay" />
         <div className="container header-container">
           <span className="badge badge-accent">Layanan Korporasi</span>

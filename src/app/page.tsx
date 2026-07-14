@@ -62,7 +62,7 @@ export default function Home() {
           className="hero-parallax-bg" 
           style={{ 
             transform: `translateY(${scrollY * 0.4}px)`,
-            backgroundImage: `url('https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=1920&q=80')`
+            backgroundImage: `url('https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=1920&q=80')`
           }}
         />
         {/* Dark overlay for text readability */}
@@ -350,7 +350,7 @@ export default function Home() {
                     </ul>
                     <Link href="/services" className="btn-primary">Selengkapnya</Link>
                   </div>
-                  <div className="pane-media" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80')` }} />
+                  <div className="pane-media" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=800&q=80')` }} />
                 </div>
               )}
 
@@ -390,7 +390,92 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 6. Call to Action (CTA) */}
+      {/* 6. Galeri Armada & Operasional Maritim */}
+      <section className="fleet-gallery-section">
+        <div className="container">
+          <div className="section-header">
+            <span className="badge">Galeri Maritim</span>
+            <h2>Dokumentasi Armada & Aktivitas Logistik</h2>
+            <p>Rangkuman visual keandalan operasional, kesiapan armada, dan aktivitas bongkar muat kargo PT. Pelayaran Samudera Rizqi di berbagai pelabuhan Nusantara.</p>
+          </div>
+
+          <div className="gallery-grid">
+            <div className="gallery-card glass-panel">
+              <div className="gallery-img-wrapper" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=600&q=80')` }}>
+                <div className="gallery-overlay">
+                  <div className="gallery-info">
+                    <span className="gallery-category">Bulk Carrier</span>
+                    <h3>SR Bulk Carrier Perkasa</h3>
+                    <p>Kapal curah kering pengangkut batu bara melewati Selat Sunda.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="gallery-card glass-panel">
+              <div className="gallery-img-wrapper" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=600&q=80')` }}>
+                <div className="gallery-overlay">
+                  <div className="gallery-info">
+                    <span className="gallery-category">Container Ship</span>
+                    <h3>SR Container Leader</h3>
+                    <p>Proses pemuatan kontainer logistik di pelabuhan Tanjung Priok.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="gallery-card glass-panel">
+              <div className="gallery-img-wrapper" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1505705694340-019e1e335916?auto=format&fit=crop&w=600&q=80')` }}>
+                <div className="gallery-overlay">
+                  <div className="gallery-info">
+                    <span className="gallery-category">Port Operations</span>
+                    <h3>Tanjung Perak Terminal</h3>
+                    <p>Aktivitas bongkar muat logistik kontainer komoditas domestik.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="gallery-card glass-panel">
+              <div className="gallery-img-wrapper" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80')` }}>
+                <div className="gallery-overlay">
+                  <div className="gallery-info">
+                    <span className="gallery-category">Supply Chain</span>
+                    <h3>Warehouse Transit</h3>
+                    <p>Penyimpanan kargo terintegrasi dengan standar keamanan tinggi.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="gallery-card glass-panel">
+              <div className="gallery-img-wrapper" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=600&q=80')` }}>
+                <div className="gallery-overlay">
+                  <div className="gallery-info">
+                    <span className="gallery-category">Vessel Charter</span>
+                    <h3>TB. Samudera Rizqi Titan</h3>
+                    <p>Kapal tunda (Tugboat) melakukan navigasi di perairan Selat Makassar.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="gallery-card glass-panel">
+              <div className="gallery-img-wrapper" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1520262454111-282f1d54447e?auto=format&fit=crop&w=600&q=80')` }}>
+                <div className="gallery-overlay">
+                  <div className="gallery-info">
+                    <span className="gallery-category">Marine Terminal</span>
+                    <h3>Batam Hub Terminal</h3>
+                    <p>Pintu gerbang logistik laut wilayah barat Indonesia.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 7. Call to Action (CTA) */}
       <section className="cta-section">
         <div className="container cta-container glass-panel">
           <div className="cta-text">
@@ -1002,6 +1087,97 @@ export default function Home() {
         .cta-text p {
           color: var(--color-text-muted);
           font-size: 0.98rem;
+        }
+
+        /* Fleet Gallery Section */
+        .fleet-gallery-section {
+          padding: 6rem 0;
+          background-color: var(--color-bg-dark);
+        }
+
+        .gallery-grid {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 2rem;
+          margin-top: 3rem;
+        }
+
+        @media (max-width: 991px) {
+          .gallery-grid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+          }
+        }
+
+        @media (max-width: 575px) {
+          .gallery-grid {
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+          }
+        }
+
+        .gallery-card {
+          border-radius: 12px;
+          overflow: hidden;
+          padding: 0;
+          height: 250px;
+          transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s ease;
+          border: 1px solid var(--color-border);
+        }
+
+        .gallery-card:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 12px 30px rgba(220, 30, 36, 0.15);
+        }
+
+        .gallery-img-wrapper {
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+          background-position: center;
+          position: relative;
+          display: flex;
+          align-items: flex-end;
+        }
+
+        .gallery-overlay {
+          width: 100%;
+          padding: 1.5rem;
+          background: linear-gradient(to top, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0.3) 70%, transparent 100%);
+          opacity: 0.9;
+          transition: opacity 0.3s ease;
+        }
+
+        .gallery-card:hover .gallery-overlay {
+          opacity: 1;
+        }
+
+        .gallery-info {
+          display: flex;
+          flex-direction: column;
+          gap: 0.25rem;
+        }
+
+        .gallery-category {
+          font-size: 0.75rem;
+          font-weight: 700;
+          text-transform: uppercase;
+          color: var(--color-primary);
+          letter-spacing: 0.05em;
+        }
+
+        .gallery-info h3 {
+          font-size: 1.15rem;
+          color: #ffffff;
+          font-weight: 700;
+          margin: 0;
+        }
+
+        .gallery-info p {
+          font-size: 0.8rem;
+          color: rgba(255, 255, 255, 0.7);
+          margin: 0;
+          line-height: 1.4;
         }
       `}</style>
     </div>
